@@ -13,5 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Graph">
+      <UniqueIdentifier>{e56a01e1-51a1-4f63-854a-13838c8d95df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Structure">
+      <UniqueIdentifier>{2ff0e7de-babe-43d4-bfb4-cf7d0779a617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Structure\heap">
+      <UniqueIdentifier>{86d37be1-dbe2-41df-90a6-75917d9ea828}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="edge.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="AdjGraph.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="listgraph.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="edgelist.h">
+      <Filter>头文件\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="maxHeap.h">
+      <Filter>头文件\Structure\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="minHeap.h">
+      <Filter>头文件\Structure\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="UFset.h">
+      <Filter>头文件\Structure</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
